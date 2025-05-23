@@ -1,4 +1,4 @@
-<h1> DESAFIO DE PROJETO: Criando um Monitoramento de Custos no Data Factory </h1>
+<h1> DESAFIO DE PROJETO: Criando Processos de Redundância de Arquivos na Azure </h1>
 
 <p align="left">
   <img src="https://img.shields.io/static/v1?label=&message=Azure&color=blue&style=for-the-badge&logo=microsoftazure"/>
@@ -11,20 +11,14 @@
 
 Este Projeto foi realizado por Maurício André de Almeida como trabalho no curso de Microsoft AI for Tech - Azure Databricks na DIO.ME
 
-- Para este trabalho, criei uma conta de estudante no AZURE
-- Criei os alguns recursos no meu painel do Azure: 
-  - Servidor SQL
-  - Bancos de dados SQL
-  - Storage Account
-  - Data Factory
-  - Function App
+- Para este trabalho, Criei os seguintes LinkedServices no DataFactory:
+  - Azure Blob Storage (para o armazenamento no estilo Medalion: Bronze/Prata/Ouro de arquivos)
+  - Azure SQL Database (Banco de dados de teste: AdventureWorks)
+
+- Criei um Pipeline para copiar uma tabela do BD e gravar no armazenamento bronze como um arquivo do tipo Parquet
 
 ![Recursos](Resources.jpg)
 
-
-- Criei o orçamento (budget) e defini alertas de custos: 
-
-![Budget](./Budget.jpg)
 
 # Autor
 
