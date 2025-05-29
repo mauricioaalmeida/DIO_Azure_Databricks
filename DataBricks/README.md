@@ -12,6 +12,7 @@
 📚 Arquitetura de Dados End-to-End no Microsoft Azure utilizando Azure Data Fabric e Azure DataBricks
 
 Este repositório contém a documentação e os artefatos necessários para implementar uma solução completa de engenharia de dados utilizando os serviços da plataforma Microsoft Azure. 
+
 🎯 Objetivo 
 
 Criar um pipeline de dados desde a extração de dados de um banco SQL até a transformação e armazenamento em diferentes camadas (bronze, prata e ouro), usando os seguintes componentes: 
@@ -20,8 +21,9 @@ Criar um pipeline de dados desde a extração de dados de um banco SQL até a tr
     Azure Data Lake Storage Gen2
     Azure Data Factory
     Azure Databricks
-     
 
+
+     
 🧩 Arquitetura Geral 
  
  
