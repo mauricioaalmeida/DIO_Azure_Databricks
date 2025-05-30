@@ -14,11 +14,16 @@ Este Projeto foi realizado por Maurício André de Almeida como trabalho no curs
 - Para este trabalho, Criei os seguintes LinkedServices no DataFactory:
   - Azure Blob Storage (para o armazenamento no estilo Medalion: Bronze/Prata/Ouro de arquivos)
   - Azure SQL Database (Banco de dados de teste: AdventureWorks)
+  - 
+![LinkedServices](LinkedServices.jpg)
 
 - Criei um Pipeline para copiar uma tabela do BD e gravar no armazenamento bronze como um arquivo do tipo Parquet
 
-![Recursos](Resources.jpg)
+![Pipeline](Pipeline.jpg)
 
+- Executei o Pipeline e o arquivo Parquet foi criado no Blob Storage:
+
+![ParquetFile](ParquetFile.jpg)
 
 # Autor
 
