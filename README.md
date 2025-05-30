@@ -11,7 +11,7 @@
 
 Este Projeto foi realizado por Maurício André de Almeida como trabalho no curso de Microsoft AI for Tech - Azure Databricks na DIO.ME
 
-
+![PIPELINE](DataBricks/PIPELINE.jpg)
 
 # Autor
 
