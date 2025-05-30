@@ -27,12 +27,7 @@ Criar um pipeline de dados desde a extração de dados de um banco SQL até a tr
 🧩 Arquitetura Geral 
  
  
-[Fonte de Dados] → [Azure SQL DB]
-        ↓
-[Azure Data Factory] → [Data Lake (Staging / Bronze)]
-        ↓
-[Azure Databricks] → Transformações (Bronze → Prata → Ouro)
- 
+![PIPELINE](./PIPELINE.jpg)
  
  
 🛠️ Passo a Passo da Implementação 
